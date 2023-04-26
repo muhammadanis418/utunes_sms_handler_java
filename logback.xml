@@ -1,0 +1,29 @@
+<configuration scan="true" scanPeriod="10 seconds">
+    <contextListener class="ch.qos.logback.classic.jul.LevelChangePropagator"/>
+    <appender name="LOGFILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>logs/utunes_sms_processing.log</file>
+        <append>true</append>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>logs/utunes_sms_processing.log.%d{yyyy-MM-dd}.gz</fileNamePattern>
+            <!-- keep 180 days' worth of history -->
+            <maxHistory>180</maxHistory>
+            <cleanHistoryOnStart>true</cleanHistoryOnStart>
+        </rollingPolicy>
+        <encoder class="ch.qos.logback.core.encoder.LayoutWrappingEncoder">
+            <charset>UTF-8</charset>
+            <layout class="ch.qos.logback.classic.PatternLayout">
+                <Pattern>%d{ISO8601} %-5p [%X{uid}] - %m%n</Pattern>
+            </layout>
+        </encoder>
+    </appender>
+    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+        <layout class="ch.qos.logback.classic.PatternLayout">
+            <Pattern>
+                %d{yyyy-MM-dd HH:mm:ss.S} [%X{}] %highlight([%-5p]) %magenta(%c{1}:%L) - %m%n
+            </Pattern>
+        </layout>
+    </appender>
+    <root level="INFO">
+        <appender-ref ref="LOGFILE"/>
+    </root>
+</configuration>

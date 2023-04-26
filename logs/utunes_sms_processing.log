@@ -1,0 +1,52 @@
+2022-11-28 14:39:01,458 INFO  [] - Starting UtunesSmsProcessApplication using Java 18.0.2.1 on DESKTOP-0QUEBBQ with PID 21028 (C:\Users\Muhammad Anis Naseem\IdeaProjects\utunes_sms_handler_java\target\classes started by Muhammad Anis Naseem in C:\Users\Muhammad Anis Naseem\IdeaProjects\utunes_sms_handler_java)
+2022-11-28 14:39:01,464 INFO  [] - No active profile set, falling back to 1 default profile: "default"
+2022-11-28 14:39:02,660 INFO  [] - Tomcat initialized with port(s): 8080 (http)
+2022-11-28 14:39:02,668 INFO  [] - Initializing ProtocolHandler ["http-nio-8080"]
+2022-11-28 14:39:02,669 INFO  [] - Starting service [Tomcat]
+2022-11-28 14:39:02,669 INFO  [] - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-28 14:39:02,781 INFO  [] - Initializing Spring embedded WebApplicationContext
+2022-11-28 14:39:02,781 INFO  [] - Root WebApplicationContext: initialization completed in 1253 ms
+2022-11-28 14:39:03,591 INFO  [] - Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-11-28 14:39:03,649 INFO  [] - Starting ProtocolHandler ["http-nio-8080"]
+2022-11-28 14:39:03,668 INFO  [] - Tomcat started on port(s): 8080 (http) with context path ''
+2022-11-28 14:39:03,682 INFO  [] - Started UtunesSmsProcessApplication in 2.741 seconds (JVM running for 3.373)
+2022-11-28 14:39:07,432 INFO  [] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-28 14:39:07,433 INFO  [] - Initializing Servlet 'dispatcherServlet'
+2022-11-28 14:39:07,435 INFO  [] - Completed initialization in 2 ms
+2022-11-28 14:39:07,581 INFO  [] - Attempting to connect to: [172.31.215.88:5672]
+2022-11-28 14:39:07,724 INFO  [] - Created new connection: rabbitConnectionFactory#77d4ac52:0/SimpleConnection@5b6424cc [delegate=amqp://utunes@172.31.215.88:5672/, localPort= 50606]
+2022-11-28 14:40:03,463 INFO  [] - Starting UtunesSmsProcessApplication using Java 18.0.2.1 on DESKTOP-0QUEBBQ with PID 11372 (C:\Users\Muhammad Anis Naseem\IdeaProjects\utunes_sms_handler_java\target\classes started by Muhammad Anis Naseem in C:\Users\Muhammad Anis Naseem\IdeaProjects\utunes_sms_handler_java)
+2022-11-28 14:40:03,466 INFO  [] - No active profile set, falling back to 1 default profile: "default"
+2022-11-28 14:40:04,701 INFO  [] - Tomcat initialized with port(s): 8080 (http)
+2022-11-28 14:40:04,708 INFO  [] - Initializing ProtocolHandler ["http-nio-8080"]
+2022-11-28 14:40:04,709 INFO  [] - Starting service [Tomcat]
+2022-11-28 14:40:04,709 INFO  [] - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-28 14:40:04,808 INFO  [] - Initializing Spring embedded WebApplicationContext
+2022-11-28 14:40:04,808 INFO  [] - Root WebApplicationContext: initialization completed in 1290 ms
+2022-11-28 14:40:05,519 INFO  [] - Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-11-28 14:40:05,578 INFO  [] - Starting ProtocolHandler ["http-nio-8080"]
+2022-11-28 14:40:05,594 INFO  [] - Tomcat started on port(s): 8080 (http) with context path ''
+2022-11-28 14:40:05,608 INFO  [] - Started UtunesSmsProcessApplication in 2.605 seconds (JVM running for 3.376)
+2022-11-28 14:40:05,720 INFO  [] - Attempting to connect to: [172.31.215.88:5672]
+2022-11-28 14:40:05,723 INFO  [] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-28 14:40:05,723 INFO  [] - Initializing Servlet 'dispatcherServlet'
+2022-11-28 14:40:05,724 INFO  [] - Completed initialization in 1 ms
+2022-11-28 14:40:05,846 INFO  [] - Created new connection: rabbitConnectionFactory#3fcee3d9:0/SimpleConnection@1fa11d03 [delegate=amqp://utunes@172.31.215.88:5672/, localPort= 50782]
+2022-11-28 14:41:19,630 INFO  [] - Starting UtunesSmsProcessApplication using Java 18.0.2.1 on DESKTOP-0QUEBBQ with PID 10752 (C:\Users\Muhammad Anis Naseem\IdeaProjects\utunes_sms_handler_java\target\classes started by Muhammad Anis Naseem in C:\Users\Muhammad Anis Naseem\IdeaProjects\utunes_sms_handler_java)
+2022-11-28 14:41:19,634 INFO  [] - No active profile set, falling back to 1 default profile: "default"
+2022-11-28 14:41:20,762 INFO  [] - Tomcat initialized with port(s): 8080 (http)
+2022-11-28 14:41:20,768 INFO  [] - Initializing ProtocolHandler ["http-nio-8080"]
+2022-11-28 14:41:20,768 INFO  [] - Starting service [Tomcat]
+2022-11-28 14:41:20,769 INFO  [] - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-28 14:41:20,866 INFO  [] - Initializing Spring embedded WebApplicationContext
+2022-11-28 14:41:20,867 INFO  [] - Root WebApplicationContext: initialization completed in 1135 ms
+2022-11-28 14:41:21,568 INFO  [] - Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-11-28 14:41:21,627 INFO  [] - Starting ProtocolHandler ["http-nio-8080"]
+2022-11-28 14:41:21,643 INFO  [] - Tomcat started on port(s): 8080 (http) with context path ''
+2022-11-28 14:41:21,657 INFO  [] - Started UtunesSmsProcessApplication in 2.708 seconds (JVM running for 3.496)
+2022-11-28 14:41:22,117 INFO  [] - Attempting to connect to: [172.31.215.88:5672]
+2022-11-28 14:41:22,119 INFO  [] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-28 14:41:22,119 INFO  [] - Initializing Servlet 'dispatcherServlet'
+2022-11-28 14:41:22,120 INFO  [] - Completed initialization in 1 ms
+2022-11-28 14:41:22,202 INFO  [] - Created new connection: rabbitConnectionFactory#54b2fc58:0/SimpleConnection@75d02153 [delegate=amqp://utunes@172.31.215.88:5672/, localPort= 51053]
+2022-11-28 16:57:17,470 WARN  [] - An unexpected connection driver error occurred (Exception message: Connection reset)
